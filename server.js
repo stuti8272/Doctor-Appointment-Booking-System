@@ -3,6 +3,8 @@ const colors = require('colors');
 const moragan = require('morgan');
 const dotenv = require('dotenv');
 const connectDB = require('./config/db');
+//path to accquire build floder for deployment
+const path = require('path')
 
 //require('dotenv').config({ path: './config/.env' });
 
@@ -40,6 +42,13 @@ app.get('/Profile', (req, res) => {
         message: "server running" ,
     });
 });*/
+
+// Access static files for deployment from client build folder
+app.use(express.static(path.join(__dirname, './client/build')));
+//to access
+app.get('*', function(req,res){
+  res.sendFile(path.join(__dirname,'./client/build/index.html'))
+});
 
 //listen port  (enviromental variable as to port it will automatically take the value)
 //port
