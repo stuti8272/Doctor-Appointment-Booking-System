@@ -1,3 +1,4 @@
+// Register page
 import React from "react";
 import "../styles/RegisterStyles.css";
 import { Form, Input, message } from "antd";
@@ -5,6 +6,7 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { showLoading, hideLoading } from "../redux/features/alertSlice";
+
 const Register = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch(); //from redux
@@ -29,7 +31,7 @@ const Register = () => {
   };
   return (
     <>
-      <div className="form-container ">
+      <div className="form-container" style={{ backgroundImage: 'url("https://img.freepik.com/free-photo/medicine-blue-background-flat-lay_23-2149341573.jpg")' }}>
         <Form
           layout="vertical"
           onFinish={onfinishHandler}

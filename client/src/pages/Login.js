@@ -1,3 +1,4 @@
+// Login page
 import React from "react";
 import "../styles/RegisterStyles.css";
 import { Form, Input, message } from "antd";
@@ -8,7 +9,7 @@ import axios from "axios";
 
 const Login = () => {
   const navigate = useNavigate();
-  const dispatch = useDispatch();  //from redux
+  const dispatch = useDispatch(); //from redux
   //form handler
   const onfinishHandler = async (values) => {
     try {
@@ -30,7 +31,7 @@ const Login = () => {
     }
   };
   return (
-    <div className="form-container ">
+    <div className="form-container" style={{ backgroundImage: 'url("https://img.freepik.com/free-photo/medicine-blue-background-flat-lay_23-2149341573.jpg")' }}>
       <Form
         layout="vertical"
         onFinish={onfinishHandler}

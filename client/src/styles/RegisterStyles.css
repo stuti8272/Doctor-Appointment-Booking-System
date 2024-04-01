@@ -5,8 +5,61 @@
     height:100vh ;
     
 }
-.register-form{
-   border: 1px solid gray;
-   padding: 30px; 
-   
-}
+.register-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: rgba(9, 167, 241, 0.918);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: darkgreen;
+  }
+  
+  .m-2 {
+    margin: 10px;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  /* Style form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the link */
+  a {
+    text-decoration: none;
+    color: rgba(9, 167, 241, 0.918);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

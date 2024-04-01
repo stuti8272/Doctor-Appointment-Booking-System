@@ -33,7 +33,7 @@ import DoctorList from '../components/DoctorList';
   }, []);
   return (
     <Layout >
-        <h1 className='text-center'>Home Page</h1>
+        <h2 class="custom-heading text-center">Doctor Appointments</h2>
         <Row>
           {doctors && doctors.map(doctor => (
             <DoctorList doctor={doctor}/>

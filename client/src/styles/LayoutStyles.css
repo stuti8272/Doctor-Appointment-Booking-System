@@ -10,7 +10,7 @@
     min-height: 100%;
     width: 300px;
     border-radius: 5px;
-    background-color: rgb(5, 94, 50);
+    background-color: rgba(9, 167, 241, 0.918);
     box-shadow: 0 0 2px gray;
     margin-right: 20px;
     color: white;
@@ -26,6 +26,7 @@
     background-color: white;
 }
 .body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210907/pngtree-doctor-medical-health-smart-technology-banner-background-image_808938.jpg");
     height:85vh ;
     margin-bottom: 20px;
     box-shadow: 0 0 2px gray;
@@ -36,6 +37,19 @@
     text-align: center;
     margin: 20px 0px;
 }
+.custom-heading {
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Optionally, you can define other styles */
+.custom-heading.text-center {
+    text-align: center;
+}
+
 
 .menu{
     margin-top: 5px;
@@ -46,11 +60,16 @@
 .menu-item a{
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .menu-item i{
     font-size: 1.2rem;
     margin: 0 15px;
+}
+.card-header{
+    background-color: rgba(9, 167, 241, 0.918);
+    font-size: large;
+    font-weight: 650;
 }
 .active{
     background-color: white;
@@ -62,23 +81,25 @@
 }
 .header-content{
     display: flex;
-    margin: 0 15px 15px;
+    margin: 0 10px 10px;
     align-items: center;
-    height: 50px;
+    height: 70px;
     justify-content: flex-end;
 }
+
 .header-content i{
-    margin-right:20px ;
-    font-size: 1.2rem;
+    margin-right:30px ;
+    font-size: 2rem;
 }
 .header-content a {
     text-decoration: none;
-    font-size: 1.2rem;
-    color: blue;
+    font-size: 1.5rem;
+    color: rgb(18, 32, 224);
     margin: 0 10px;
     text-transform: uppercase;
   }
-  
+
+ 
   
   
   
