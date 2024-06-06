@@ -6,9 +6,6 @@ const connectDB = require('./config/db');
 //path to accquire build floder for deployment
 const path = require('path')
 
-//require('dotenv').config({ path: './config/.env' });
-
-
 
 //dotenv conig
 dotenv.config();
