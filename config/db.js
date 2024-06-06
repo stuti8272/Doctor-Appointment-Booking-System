@@ -18,7 +18,6 @@ module.exports = connectDB;*/
 require('dotenv').config();
 const mongoose = require("mongoose");
 const colors = require("colors");
-//const config = require('dotenv').config();
 
 
 const connectDB = async () => {
