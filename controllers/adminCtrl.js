@@ -36,7 +36,7 @@ const getAllDoctorsController = async(req,res) => {
      }
 }
 
-//Doctor account status
+//Doctor account status(doctor may update)
 const changeAccountStatusController = async(req, res) => {
     try{
         const { doctorId, status } = req.body;
