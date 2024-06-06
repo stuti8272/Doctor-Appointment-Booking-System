@@ -43,7 +43,6 @@ router.post(
   authMiddleware,
   deleteAllNotificationController
 );
-
 //GET ALL DOCTOR
 router.get('/getAllDoctors', authMiddleware, getAllDoctorsController)
 
